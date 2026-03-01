@@ -343,13 +343,13 @@
       </p>
 
       <p>
-        <label for="mname">Middle Name<br>
+        <label for="mname">Middle Name</label><br>
         <input type="text" name="mname" id="mname">
       </p>
 
       <p>
-        <label for="fname">Last Name / Surname  <abbr title="required">*</abbr> </label><br>
-        <input type="text" name="fname" id="fname" placeholder="As per offical document" required>
+        <label for="lname">Last Name / Surname  <abbr title="required">*</abbr> </label><br>
+        <input type="text" name="lname" id="lname" placeholder="As per offical document" required>
       </p>
 
       <p>
@@ -377,7 +377,7 @@
 
       <p>
         <label for="national_id">National ID / Passport Number <abbr title="required">*</abbr></label><br>
-        <input type="text" name="nationality" id="nationality" placeholder="e.g  A1234567" required >
+        <input type="text" name="nationality_id" id="nationality_id" placeholder="e.g  A1234567" required >
       </p>
 
       <p>
@@ -404,12 +404,12 @@
 
       <p>
         <label for="pnumber2">Alternate Phone Number</label><br>
-        <input type="email" name="pnumber2" id="pnumber2">
+        <input type="tel" name="pnumber2" id="pnumber2">
       </p>
 
       <p>
-        <label for="address">Address Line 1 <abbr title="required">*</abbr></label><br>
-        <input type="text" name="email" id="email" required>
+        <label for="address1">Address Line 1 <abbr title="required">*</abbr></label><br>
+        <input type="text" name="address1" id="address1" required>
       </p>
 
       <p>
@@ -456,7 +456,7 @@
       </p>
 
       <p>
-        <label for="Years_experience">Current Occupation</label><br>
+        <label for="Years_experience">Years of Relevant Experience</label><br>
         <input type="number" name="Years_experience" id="Years_experience" >
       </p>
 
@@ -491,7 +491,7 @@
         <legend>Section 4 &mdash; Application Details</legend>
 
         <p>
-          <label for="application_type">Application Type <abbr title="required">*</abbr></label></label><br>
+          <label for="application_type">Application Type <abbr title="required">*</abbr></label><br>
 
           <select name="application_type" id="application_type" required>
             <option value="">--Select--</option>
@@ -516,6 +516,7 @@
             <option value="urgent">Urgent</option>
             <option value="critical">Critical</option>
           </select>
+        </p>   
 
           <p>
             <label for="purpose">Purpose / Objectives of Application <abbr title="required">*</abbr></label><br>
@@ -550,7 +551,7 @@
 
         <p>
           <label for="email_address">Email Address </label><br>
-          <input type="text" name="email_address" id="email_address" required>
+          <input type="email" name="email_address" id="email_address" required>
         </p>
       </fieldset>
 
@@ -591,12 +592,16 @@
       </p>
       <hr>
 
-      <p>
-        <small>This form is protected under official record-keeping regulations. Unauthorized duplication or submission is prohibited. © 2026 Official Authority. All rights reserved.</small>
-      </p>
 
     </form>
   </main>
 
+    <footer>
+      <p>
+        <small>This form is protected under official record-keeping regulations. Unauthorized duplication or submission is prohibited. © 2026 Official Authority. All rights reserved.</small>
+      </p>
+    </footer>
+    
 </body>
+
 </html>
